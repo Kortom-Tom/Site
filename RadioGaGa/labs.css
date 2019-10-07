@@ -6,9 +6,9 @@ html {
     background-color: lightgray;
     overflow: auto;
 }
-body {
+#div1 {
 
-    width: 96%;
+    width: 80%;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -22,6 +22,40 @@ body {
     font-size: 16px;
     font-style: normal;
 }
+#Div2{
+
+    width:  60%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: 1px solid;
+    overflow: inherit;
+    background-color: #fff;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#div3{
+
+    width: 40%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: 1px solid;
+    overflow: inherit;
+    background-color: #fff;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+}
+
 h3 {
     margin: 0;
     box-shadow: 4px 4px 10px rgba(0, 0 , 0 , 0, 0.5)
