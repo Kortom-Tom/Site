@@ -10,10 +10,10 @@ body {
 
     width: 96%;
     margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 5%;
-    border: 1px solid;
+    border: 2px solid;
     overflow: inherit;
     background-color: #fff;
     text-align: center;

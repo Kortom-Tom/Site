@@ -6,13 +6,14 @@ html {
     background-color: lightgray;
     overflow: auto;
 }
-#div {
+#div1 {
 
     width: 80%;
-    margin-top: 0;
+    box-shadow: #000 3px;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     border: 1px solid;
     overflow: inherit;
     background-color: #fff;
@@ -22,30 +23,33 @@ html {
     font-size: 16px;
     font-style: normal;
 }
-#Div{
+#div2{
 
-    width:  60%;
+    width:  80%;
+    height: 220px;
     margin-top: 0;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     border: 1px solid;
     overflow: inherit;
     background-color: #fff;
     text-align: center;
     font-family: Verdana, Arial, sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
+    box-shadow: 4px 4px 10px rgba(0, 0 , 0 , 0, 0.5)
 }
 
-#div3{
+#div3 {
 
-    width: 40%;
+    width: 80%;
+    height: 150px;
     margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 0;
+    margin-bottom: 0;
     border: 1px solid;
     overflow: inherit;
     background-color: #fff;
@@ -54,6 +58,26 @@ html {
     color: #000;
     font-size: 16px;
     font-style: normal;
+    box-shadow: 4px 4px 10px rgba(0, 0 , 0 , 0, 0.5)
+}
+
+#div4 {
+
+    width: 80%;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: -3%;
+    border: 1px solid;
+    overflow: inherit;
+    background-color: #fff;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    box-shadow: 4px 4px 10px rgba(0, 0 , 0 , 0, 0.5)
 }
 
 h3 {
