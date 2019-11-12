@@ -63,7 +63,15 @@ html {
     font-style: normal;
     box-shadow: 4px 4px 10px rgba(0, 0 , 0 , 0, 0.5)
 }
-
+#div3 { background-image: url(http://icons.iconarchive.com/icons/yootheme/social-bookmark/256/social-box-icon.png);
+       background-position: center;
+       background-repeat: no-repeat;
+}
+#div2 {
+      background-image: url(http://icons.iconseeker.com/ico/mozilla/firefox-2.ico);
+      background-position: center;
+      background-repeat: no-repeat;
+}
 #div4 {
 
     width: 80%;
