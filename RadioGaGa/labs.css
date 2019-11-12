@@ -41,7 +41,10 @@ html {
     font-style: normal;
     box-shadow: 4px 4px 10px rgba(0, 0 , 0 , 0, 0.5)
 }
-
+#div2:hover,
+#div2:focus{
+    letter-spacing: 5px;
+}
 #div3 {
 
     width: 80%;
