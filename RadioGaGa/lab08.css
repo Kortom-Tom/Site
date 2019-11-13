@@ -1,4 +1,4 @@
-div {
+#een {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -6,4 +6,85 @@ div {
     text-align: center;
     font-size: 1.7rem;
     color:aliceblue;
+    background-color: blue;
+    animation-name: cirkel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#twee {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 1.7rem;
+    color:aliceblue;
+    background-color: purple;
+    animation-name: cirkel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#drie {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 1.7rem;
+    color:aliceblue;
+    background-color: green;
+    animation-name: cirkel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.verticaal {
+    margin: 30px 20px 0 0;
+    transform: skew(0, -30deg);
+
+}
+
+@keyframes cirkel {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+
+#een1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: white;
+    animation-name: cirkel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#een2 {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: white;
+    animation-name: cirkel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#een3 {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: white;
+    animation-name: cirkel;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
