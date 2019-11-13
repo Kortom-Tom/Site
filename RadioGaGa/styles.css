@@ -142,3 +142,28 @@ main {
     top: 45%;
     right:4%;
 }
+
+/* footer styles begin (line 146) */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+footer img {
+    margin: 0;
+    width: 4%;
+}
+footer p {
+    margin: 0;
+    color: firebrick;
+}
+/* Footer styles end (line 169) */
